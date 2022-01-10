@@ -22,7 +22,7 @@ namespace CapgeminiEF.Infrastructure.Repository
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder
-                    .UseSqlServer(config.GetConnectionString("CapgeminiDbContext"));
+                    .UseSqlServer(config.GetConnectionString("myDb1"));
             }
         }
     }
